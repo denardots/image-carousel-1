@@ -1,3 +1,5 @@
+"use strict";
+
 // Función que muestra la imagen de la galería
 const showImage = index => specialImg.src = gallery[index].src;
 
@@ -40,5 +42,5 @@ closeButton.addEventListener("click", () => special.style.display = "none");
 special.addEventListener("click", event => {
   if (event.target === special) {
     special.style.display = "none";
-  }
+  };
 });
